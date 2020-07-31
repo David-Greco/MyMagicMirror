@@ -14,7 +14,8 @@ module.exports = NodeHelper.create({
 	job() {
 		console.log("Start read process");
 		//var process = spawn('python', ['/home/pi/MagicMirror/modules/default/clock/thermalread.py']);
-		var process = spawn("python", ["/home/pi/MagicMirror/modules/default/clock/roomcheck.py"]);
+		//var process = spawn("python", ["/home/pi/MagicMirror/modules/default/clock/roomcheck.py"]);
+		var process = spawn("python", ["~/MagicMirror/modules/default/clock/test.py"]);
 		//console.log("Start visual process");
 		//var visualProcess = spawn('python', ['/home/pi/MagicMirror/modules/default/clock/thermalcamera.py']);
 		process.stdout.on("data", (data) => {
