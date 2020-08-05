@@ -18,7 +18,9 @@ Module.register("clock", {
 		if (notification === "FROM_PY_SCRIPT") {
 			console.log("compliments.js recieved payload");
 			this.config.message = payload;
-			this.updateDom(1000);
+		        this.updateDom(1000);
+		        //This will loop the function
+		        this.sendSocketNotification("CONFIG", this.config);
 		}
 	},
 	// Override dom generator.
