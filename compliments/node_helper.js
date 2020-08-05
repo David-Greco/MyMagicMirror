@@ -13,8 +13,7 @@ module.exports = NodeHelper.create({
 		//console.log("Start test process");
 		//var testprocess = spawn('python', ['/home/pi/MagicMirror/modules/default/compliments/thermalcamera.py']);
 		console.log("Start regular process");
-		//var process = spawn("python3", ["/home/pi/MagicMirror/modules/default/compliments/correctface.py"]);
-		var process = spawn("python", ["~/MagicMirror/modules/default/clock/testpy.py"]);
+		var process = spawn("python3", ["/home/pi/MagicMirror/modules/default/compliments/correctface.py"]);
 		/*
 	    var ms = 2000;
 	    var start = new Date().getTime();

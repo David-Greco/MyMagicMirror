@@ -32,87 +32,10 @@ while True:
     for face_encoding in face_encodings:
         # See if the face is a match for the known face(s)
         match = face_recognition.compare_faces(my_encoding, face_encoding)
-        name = "<Unknown Person>"
+        #name = "<Unknown Person>"
 
         if match[0]:
             print("I see someone named David")
             quit()
-            name = "David Greco"
 
         #print("I see someone named {}!".format(name))
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-
